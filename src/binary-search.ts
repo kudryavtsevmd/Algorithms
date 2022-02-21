@@ -1,4 +1,4 @@
-// Algorithmic Complexity OlnN
+// Algorithmic Complexity O log n
 class BinarySearch {
 	public static search([...sortedArr]: number[], value: number): number | null {
 		let low: number = 0;
