@@ -1,5 +1,5 @@
 // Algorithmic Complexity O log n
-class BinarySearch {
+export class BinarySearch {
 	public static search([...sortedArr]: number[], value: number): number | null {
 		let low: number = 0;
 		let high: number = sortedArr.length - 1;
@@ -18,6 +18,3 @@ class BinarySearch {
 		return null;
 	}
 }
-
-const sortedArr: number [] = [1,2,3,4,5,6,7,8,9,10,11,12,13,14];
-console.log(BinarySearch.search(sortedArr , 14));

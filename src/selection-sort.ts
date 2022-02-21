@@ -1,5 +1,5 @@
 // Algorithmic Complexity O(n*n)
-class SelectionSort {
+export class SelectionSort {
     private static findsSmallestIndex(arr:number[]): number {
         let smallestIndex: number = 0;
         let smallestValue: number = arr[0];
@@ -22,6 +22,3 @@ class SelectionSort {
         return result;
     }
 }
-
-const arr: number [] = [5,6,1,3,10,25,2,3,3,4,5,6,6,0]
-console.log(SelectionSort.sort(arr));

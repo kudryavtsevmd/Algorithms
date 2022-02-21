@@ -1,5 +1,5 @@
 // Algorithmic Complexity O(n log n)
-class QuickSort {
+export class QuickSort {
 	public static sort([...arr]: number[]): number[]  {
     if (arr.length < 2){
       return arr;
@@ -11,6 +11,3 @@ class QuickSort {
     }
   }
 }
-
-const arr: number [] = [5,3,10,4];
-console.log(QuickSort.sort(arr));
